@@ -27,6 +27,8 @@ procedure TForm1.Button1Click(Sender: TObject);
 begin
   ShowMessage('Teste Foi');
   showmessage('Teste2');
+
+  Button1.Enabled := false;
 end;
 
 end.
